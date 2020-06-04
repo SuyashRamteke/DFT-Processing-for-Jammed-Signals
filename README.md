@@ -1,6 +1,7 @@
 # DFT-Processing-for-Jammed-Signals
 
 Scenario #1
+
 You have a system intended to receive a sinusoidal RF signal whose frequency is unknown but is known to be one of the following
 18 frequencies (all in GHz): 1.0075, 1.0125, 1.0175, ... , 1.0925. Note: spacing is 5 MHz.
 1.0075 1.0125 1.0175
@@ -25,6 +26,7 @@ below the power of any one of the jamming sinusoids
 Assuming that an auxiliary subsystem can detect which of the two jamming schemes is being used, define and test two DFT processing schemes (one for each of the two jamming signals) that can ensure detection of the desired sinusoid in the presence of the jammer – obviously you need to strive to keep the number of samples used as small as possible. Your system will work directly on the LPE signal that you can assume is provided by some other processing that precedes your processing. Thus in your simulation you can directly simulate the proper LPE signal and don’t need to simulate the RF signal.
 
 Scenario #2
+
 Instead of the sinusoidal signal used in Scenario #1 you have a desired LPE signal that can be modeled as a real-valued 
 Gaussian noise filtered through an FIR filter with two taps of [1 1]. Here you only need consider the sinusoidal jamming 
 signal. The SNR is -10 dB. Design and test linear phase FIR comb filters that can be used to remove the jamming signal from 
