@@ -1,5 +1,7 @@
 # DFT-Processing-for-Jammed-Signals
 
+Academic Project
+
 Scenario #1
 
 You have a system intended to receive a sinusoidal RF signal whose frequency is unknown but is known to be one of the following
